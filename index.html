@@ -78,16 +78,21 @@
       background: radial-gradient(ellipse 80% 80% at 70% 50%, rgba(26,107,58,0.12) 0%, transparent 50%);
       pointer-events: none;
     }
-    /* Large decorative Arabic letter */
+    /* Large decorative Arabic watermark */
     .hero-bg-ar {
       position: absolute;
-      right: -40px;
-      top: 50%;
-      transform: translateY(-50%);
+      right: 0;
+      top: 7%;
       font-family: 'Amiri', serif;
-      font-size: clamp(260px, 30vw, 420px);
-      color: rgba(255,255,255,0.025);
+      width: 100%;
+      font-size: clamp(4.5rem, 14vw, 12rem);
+      color: rgba(255,255,255,0.055);
       line-height: 1;
+      direction: rtl;
+      white-space: nowrap;
+      text-align: right center;
+      letter-spacing: 0.02em;
+      text-shadow: 0 0 28px rgba(255,255,255,0.04);
       user-select: none;
       pointer-events: none;
     }
@@ -297,7 +302,7 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-bg-ar">آ</div>
+  <div class="hero-bg-ar" aria-hidden="true">آيات إسماعيل</div>
   <div class="container hero-content">
     <div class="row align-items-center g-5">
       <div class="col-md-7">
