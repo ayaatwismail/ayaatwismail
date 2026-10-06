@@ -189,7 +189,7 @@
       overflow: hidden;
       transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1);
     }
-    .course-item.open .course-body { max-height: 400px; }
+    .course-item.open .course-body { max-height: 1000px; }
     .course-body-inner {
       padding: 0 0 1.8rem;
       display: grid;
@@ -207,6 +207,15 @@
       font-size: 0.78rem;
       color: #5bba7d;
       margin: 2px;
+    }
+    .course-syllabus { margin-top: 0.8rem; }
+    .course-syllabus a { display: inline-block; margin-bottom: 0.5rem; }
+    .course-syllabus iframe {
+      display: block;
+      width: min(100%, 320px);
+      height: 180px;
+      border: 1px solid rgba(255,255,255,0.16);
+      background: var(--white);
     }
 
     /* ── INTERESTS TAGS ── */
@@ -327,40 +336,6 @@
   </div>
 </section>
 
-<!-- PHILOSOPHY -->
-<section class="container my-5 py-4">
-  <div class="reveal">
-    <p class="section-label">Teaching Philosophy</p>
-    <h2 class="section-title">My<em> Commitments</em></h2>
-    <div class="accent-line"></div>
-    <div class="col-md-8">
-      <p style="font-size:1.12rem;line-height:1.8;color:var(--muted);">
-        My teaching is rooted in feminist, anti-racist, and student-centered pedagogies. I design courses that foreground critical thinking, creativity, and collaborative inquiry, centering digital humanities, film, and global studies as tools for understanding power, representation, and resistance. The classroom, for me, is a space for students to develop skills for both academic and public scholarship while honoring the knowledge they already carry.
-      </p>
-    </div>
-  </div>
-  <div class="pillars-grid reveal">
-    <div class="pillar p-green">
-      <h4>Feminist Witnessing</h4>
-      <p>Making visible what dominant archives suppress, centering marginalized voices as primary epistemological sources.</p>
-    </div>
-    <div class="pillar p-red">
-      <h4>Cinema as Counter-Archive</h4>
-      <p>Film and visual media as sites of resistance, reading images against the grain of colonial documentation.</p>
-    </div>
-    <div class="pillar p-black">
-      <h4>Counter-Cartography</h4>
-      <p>Mapping as a political act, challenging borders drawn by occupation and reimagining space through community knowledge.</p>
-    </div>
-    <div class="pillar p-gold">
-      <h4>Sumud in Writing</h4>
-      <p>Steadfastness as method, teaching students to write as an act of presence, persistence, and refusal to disappear.</p>
-    </div>
-  </div>
-</section>
-
-<div class="keffiyeh-divider"></div>
-
 <!-- COURSES -->
 <section class="courses-section">
   <div class="container">
@@ -372,6 +347,35 @@
     <div class="course-accordion reveal">
 
       <div class="course-item open">
+        <div class="course-trigger">
+          <div>
+            <span class="course-meta">MSU, Fall 2026</span><br>
+            <span class="course-name">IAH 207: Going Viral: Identity in the Age of Social Media</span>
+          </div>
+          <span class="arrow">+</span>
+        </div>
+        <div class="course-body">
+          <div class="course-body-inner">
+            <p>Everyone has a profile. But who are you when you're online, and who decides? This course examines how digital platforms have transformed the way we construct, perform, and consume identity across race, gender, sexuality, and culture. Drawing on literature, film, cultural criticism, and theory, students will investigate the stories we tell about ourselves online, whose voices get amplified or erased by algorithms, and how communities around the world use and resist social media to assert cultural belonging.<br><br>From influencer culture to cancel culture, from digital diaspora to deepfakes, this course asks: in an age when going viral can make or break an identity, who controls the narrative?</p>
+            <div>
+              <span class="course-tag">In Person</span>
+              <span class="course-tag">Fall 2026</span>
+              <span class="course-tag">Digital Identity</span>
+              <span class="course-tag">Social Media</span>
+              <span class="course-tag">Algorithms</span>
+              <span class="course-tag">Digital Diaspora</span>
+              <span class="course-tag">Influencer &amp; Cancel Culture</span>
+              <span class="course-tag">Deepfakes</span>
+              <div class="course-syllabus">
+                <a href="https://docs.google.com/document/d/1DGUpSx0tDkmXuXro9zCGobS7v5HbE7T7WUdWqUyJ2vU/edit?tab=t.0" target="_blank" rel="noopener noreferrer">View syllabus</a>
+                <iframe src="https://docs.google.com/document/d/1DGUpSx0tDkmXuXro9zCGobS7v5HbE7T7WUdWqUyJ2vU/preview" title="IAH 207 syllabus preview" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-item">
         <div class="course-trigger">
           <div>
             <span class="course-meta">MSU, Summer 2026</span><br>
