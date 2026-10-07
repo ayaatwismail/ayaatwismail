@@ -179,6 +179,8 @@
       margin-top: 3px;
     }
     .cv-entry-sub em { color: var(--green); font-style: normal; font-weight: 500; }
+    /* Event / venue names in conference entries: normal italics, not green */
+    .cv-entry-sub .event { font-style: italic; color: inherit; font-weight: 400; }
 
     /* PUB ENTRIES */
     .pub-entry {
@@ -270,6 +272,7 @@
       <button class="filter-tab active" data-filter="all">All</button>
       <button class="filter-tab" data-filter="education">Education</button>
       <button class="filter-tab" data-filter="publications">Publications</button>
+      <button class="filter-tab" data-filter="conferences">Conference Presentations</button>
       <button class="filter-tab" data-filter="awards">Awards</button>
       <button class="filter-tab" data-filter="teaching">Teaching</button>
       <button class="filter-tab" data-filter="workshops">Workshops</button>
@@ -326,7 +329,18 @@
         <h2 class="cv-section-title">Publications</h2>
         <div class="cv-section-line"></div>
 
-        <p style="font-family:'IBM Plex Mono',monospace;font-size:0.78rem;letter-spacing:0.12em;color:var(--muted);text-transform:uppercase;margin-bottom:1rem;">Peer Reviewed</p>
+        <p style="font-family:'IBM Plex Mono',monospace;font-size:0.78rem;letter-spacing:0.12em;color:var(--muted);text-transform:uppercase;margin-bottom:1rem;">Forthcoming</p>
+
+        <div class="pub-entry">
+          <div class="pub-title">"Surveilled Sumud: Palestinian Women's Counter-Archival Practices in Digital Occupation"</div>
+          <div class="pub-meta">In <em>Documenting Women: A Global Archives Reader</em>, edited by Tanya Zanish-Belcher and Elizabeth Myers, Bloomsbury Press, forthcoming.</div>
+        </div>
+        <div class="pub-entry">
+          <div class="pub-title">"Liminal Spaces and Living Archives: Palestinian Identity in Tariq Luthun's Digital Age Poetry"</div>
+          <div class="pub-meta">In <em>Detroit Collection</em>, edited by Vincent Haddad, MSU Press, forthcoming.</div>
+        </div>
+
+        <p style="font-family:'IBM Plex Mono',monospace;font-size:0.78rem;letter-spacing:0.12em;color:var(--muted);text-transform:uppercase;margin:2rem 0 1rem;">Peer Reviewed</p>
 
         <div class="pub-entry">
           <div class="pub-journal">Miracle Monocle · Issue 19 · Spring 2023</div>
@@ -341,27 +355,16 @@
           <div class="pub-title">"A Uniquely American Vision in Kiki Petrosino's <em>Bright</em>"</div>
         </div>
         <div class="pub-entry">
-          <div class="pub-journal">Miracle Monocle · Issue 18 · Dec 2021</div>
-          <div class="pub-title">"Exploring Womanhood: A Review of Siân Griffiths's <em>The Sum Of Her Parts</em>"</div>
-        </div>
-        <div class="pub-entry">
           <div class="pub-journal">Miracle Monocle · Issue 18 · May 2022</div>
           <div class="pub-title">"A Digital Roundtable Interview with Gabrielle Ione Hickmon, Lena Mahmoud, and Ellen van Neerven"</div>
         </div>
         <div class="pub-entry">
+          <div class="pub-journal">Miracle Monocle · Issue 18 · Dec 2021</div>
+          <div class="pub-title">"Exploring Womanhood: A Review of Siân Griffiths's <em>The Sum Of Her Parts</em>"</div>
+        </div>
+        <div class="pub-entry">
           <div class="pub-journal">Miracle Monocle · Issue 17 · May 2021</div>
           <div class="pub-title">"The Definition of Goodness in Hayan Charara's <em>These Trees, Those Leaves, This Flower, That Fruit</em>"</div>
-        </div>
-
-        <p style="font-family:'IBM Plex Mono',monospace;font-size:0.78rem;letter-spacing:0.12em;color:var(--muted);text-transform:uppercase;margin:2rem 0 1rem;">Forthcoming</p>
-
-        <div class="pub-entry">
-          <div class="pub-title">"Surveilled Sumud: Palestinian Women's Counter-Archival Practices in Digital Occupation"</div>
-          <div class="pub-meta">In <em>Documenting Women: A Global Archives Reader</em>, edited by Tanya Zanish-Belcher and Elizabeth Myers, Bloomsbury Press, forthcoming.</div>
-        </div>
-        <div class="pub-entry">
-          <div class="pub-title">"Liminal Spaces and Living Archives: Palestinian Identity in Tariq Luthun's Digital Age Poetry"</div>
-          <div class="pub-meta">In <em>Detroit Collection</em>, edited by Vincent Haddad, MSU Press, forthcoming.</div>
         </div>
 
         <p style="font-family:'IBM Plex Mono',monospace;font-size:0.78rem;letter-spacing:0.12em;color:var(--muted);text-transform:uppercase;margin:2rem 0 1rem;">Digital Projects</p>
@@ -380,6 +383,69 @@
           <div class="pub-title">"A Palm Oil Project" (with April Best)</div>
         </div>
       </div>
+
+      <!-- CONFERENCE PRESENTATIONS -->
+      <div class="cv-block reveal" data-section="conferences">
+        <p class="cv-section-label">Scholarship</p>
+        <h2 class="cv-section-title">Conference Presentations</h2>
+        <div class="cv-section-line"></div>
+
+        <div class="cv-entry">
+          <div class="cv-year">2026</div>
+          <div class="cv-entry-main">
+            <div class="cv-entry-title">“Critical Ephemera: Palestinian Social Media Documentation and the Weaponization of Impermanence.”</div>
+            <div class="cv-entry-sub"><span class="event">Middle East Studies Association (MESA) Annual Conference</span>, Boston, MA, November 2026.</div>
+          </div>
+        </div>
+        <div class="cv-entry">
+          <div class="cv-year">2026</div>
+          <div class="cv-entry-main">
+            <div class="cv-entry-title">“Palestine on Campus: Mapping Research, Advocacy, and Institutional Opposition in Higher Education.”</div>
+            <div class="cv-entry-sub">With Rebecca Karam, Jennifer Goett, Salah D. Hassan, Najib B. Hourani, Rachel Winter, and Waseem El-Rayes. Roundtable, <span class="event">MESA Annual Conference</span>, Boston, MA, November 2026.</div>
+          </div>
+        </div>
+        <div class="cv-entry">
+          <div class="cv-year">2026</div>
+          <div class="cv-entry-main">
+            <div class="cv-entry-title">“An Aesthetics of Urgency: Palestinian Social Media Documentation as Counter-Archive.”</div>
+            <div class="cv-entry-sub"><span class="event">University of Glasgow</span>, Glasgow, UK, June 2026.</div>
+          </div>
+        </div>
+        <div class="cv-entry">
+          <div class="cv-year">2024</div>
+          <div class="cv-entry-main">
+            <div class="cv-entry-title">“Documenting Palm Oil.”</div>
+            <div class="cv-entry-sub">Roundtable, <span class="event">AIFIS Conference</span>, Online, June 2024.</div>
+          </div>
+        </div>
+        <div class="cv-entry">
+          <div class="cv-year">2024</div>
+          <div class="cv-entry-main">
+            <div class="cv-entry-title">“Documenting Palm Oil in Indonesia.”</div>
+            <div class="cv-entry-sub"><span class="event">MSU Museum</span>, East Lansing, MI, March 2024.</div>
+          </div>
+        </div>
+        <div class="cv-entry">
+          <div class="cv-year">2024</div>
+          <div class="cv-entry-main">
+            <div class="cv-entry-title">“Feminine Writing and Resistance: A Palestinian Insight into Sahar Khalifeh’s <em>The Inheritance</em>.”</div>
+            <div class="cv-entry-sub"><span class="event">51st Louisville Conference on Literature and Culture</span>, Louisville, KY, February 2024.</div>
+          </div>
+        </div>
+        <div class="cv-entry">
+          <div class="cv-year">2023</div>
+          <div class="cv-entry-main">
+            <div class="cv-entry-title">“Reimagining Student Assignments Digitally: Creating a More Inclusive, Student-Centered Learning Environment.”</div>
+            <div class="cv-entry-sub">With Neleigh Olson. <span class="event">Celebration of Teaching and Learning Conference</span>, February 2023.</div>
+          </div>
+        </div>
+        <div class="cv-entry">
+          <div class="cv-year">2021</div>
+          <div class="cv-entry-main">
+            <div class="cv-entry-title">“Our Stories Make Us Who We Are: Creating an Oral History Project for Your Writing Center.”</div>
+            <div class="cv-entry-sub">With Bronwyn Williams, Cassandra Book, and Amber Yocum. Roundtable, <span class="event">International Writing Center Association Conference</span>, Online, October 2021.</div>
+          </div>
+        </div>
 
       <!-- AWARDS -->
       <div class="cv-block reveal" data-section="awards">
@@ -520,16 +586,9 @@
             <div class="cv-entry-sub">Graduate Teaching Assistant · <em>University of Louisville</em></div>
           </div>
         </div>
-        <div class="cv-entry">
-          <div class="cv-year">Spr. 2023</div>
-          <div class="cv-entry-main">
-            <div class="cv-entry-title">ENGL 225 African American Literature</div>
-            <div class="cv-entry-sub">Adjunct Instructor · <em>Bellarmine University</em></div>
-          </div>
-        </div>
       </div>
 
-      <!-- WORKSHOPS (moved up) -->
+      <!-- WORKSHOPS -->
       <div class="cv-block reveal" data-section="workshops">
         <p class="cv-section-label">Workshops</p>
         <h2 class="cv-section-title">Workshops Organized</h2>
@@ -543,22 +602,22 @@
             <div class="cv-entry-sub">
               Department of Film Studies, Michigan State University, Wells Hall, East Lansing, MI
               <ul style="margin-top:0.5em;">
-                <li><strong>Fall 2025:</strong>
-                  <ul>
-                    <li>"Oil-Built Worlding: Prospecting, Prehistory, and (Post)Colonial Time in the Sahara," 2 Oct. 2025</li>
-                    <li>"Additive Voices, Timbral Currencies, and the Work of Localization," 24 Oct. 2025</li>
-                    <li>"Mulholland Drive: BFI Film Classics," 7 Nov. 2025</li>
-                    <li>"Mountains of Light: Virtual Aesthetics and the Imperial Imagination," 17 Nov. 2025</li>
-                    <li>"Fandom and the Nonfiction Impulse: Videographic Approaches to Star Studies," 21 Nov. 2025</li>
-                  </ul>
-                </li>
                 <li><strong>Spring 2026:</strong>
                   <ul>
-                    <li>"Dig Our Graves First: On Hauntology and Spectral Return in Black Atlantic Horror Cinema," 22 Jan. 2026</li>
-                    <li>Special presentation of Vieques: Archivo Vivo (2025), 20 Feb. 2026</li>
-                    <li>"Cantamos sin miedo, pedimos justicia: Embodiment, Mourning, and Remembrance in Barrileras del 8M's Yubá Performance," 13 Mar. 2026</li>
-                    <li>"Federal Narratives: The Hollywood Lives of the Bureau of Prisons," 2 Apr. 2026</li>
                     <li>"The Combined and Uneven Development Film in East Asia," 3 Apr. 2026</li>
+                    <li>"Federal Narratives: The Hollywood Lives of the Bureau of Prisons," 2 Apr. 2026</li>
+                    <li>"Cantamos sin miedo, pedimos justicia: Embodiment, Mourning, and Remembrance in Barrileras del 8M's Yubá Performance," 13 Mar. 2026</li>
+                    <li>Special presentation of Vieques: Archivo Vivo (2025), 20 Feb. 2026</li>
+                    <li>"Dig Our Graves First: On Hauntology and Spectral Return in Black Atlantic Horror Cinema," 22 Jan. 2026</li>
+                  </ul>
+                </li>
+                <li><strong>Fall 2025:</strong>
+                  <ul>
+                    <li>"Fandom and the Nonfiction Impulse: Videographic Approaches to Star Studies," 21 Nov. 2025</li>
+                    <li>"Mountains of Light: Virtual Aesthetics and the Imperial Imagination," 17 Nov. 2025</li>
+                    <li>"Mulholland Drive: BFI Film Classics," 7 Nov. 2025</li>
+                    <li>"Additive Voices, Timbral Currencies, and the Work of Localization," 24 Oct. 2025</li>
+                    <li>"Oil-Built Worlding: Prospecting, Prehistory, and (Post)Colonial Time in the Sahara," 2 Oct. 2025</li>
                   </ul>
                 </li>
               </ul>
@@ -574,15 +633,15 @@
             <div class="cv-entry-sub">
               Research Workshop, Michigan State University, Wells Hall B342, East Lansing, MI
               <ul style="margin-top:0.5em;">
-                <li>Session 1: "Violence, Generational Trauma, and Arab American Subjecthood," 29 Jan. 2026</li>
                 <li>Session 2: "Palestine and Arab American Testimonials," 20 Feb. 2026</li>
+                <li>Session 1: "Violence, Generational Trauma, and Arab American Subjecthood," 29 Jan. 2026</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- RESEARCH & EDITORIAL EXPERIENCE (add after workshops or as appropriate) -->
+      <!-- RESEARCH & EDITORIAL EXPERIENCE -->
       <div class="cv-block reveal" data-section="research">
         <p class="cv-section-label">Research &amp; Editorial</p>
         <h2 class="cv-section-title">Research and Editorial Experience</h2>
@@ -602,6 +661,13 @@
           </div>
         </div>
         <div class="cv-entry">
+          <div class="cv-year">Spring 2022</div>
+          <div class="cv-entry-main">
+            <div class="cv-entry-title">Instructional Editor, Cardinal Composition</div>
+            <div class="cv-entry-sub">University of Louisville</div>
+          </div>
+        </div>
+        <div class="cv-entry">
           <div class="cv-year">2021–2022</div>
           <div class="cv-entry-main">
             <div class="cv-entry-title">Assistant Editor and Social Media Manager</div>
@@ -616,13 +682,6 @@
           </div>
         </div>
         <div class="cv-entry">
-          <div class="cv-year">Spring 2022</div>
-          <div class="cv-entry-main">
-            <div class="cv-entry-title">Instructional Editor, Cardinal Composition</div>
-            <div class="cv-entry-sub">University of Louisville</div>
-          </div>
-        </div>
-        <div class="cv-entry">
           <div class="cv-year">2020–2021</div>
           <div class="cv-entry-main">
             <div class="cv-entry-title">Writing Consultant, University Writing Center</div>
@@ -631,7 +690,7 @@
         </div>
       </div>
 
-      <!-- UNIVERSITY SERVICE (replace or add to your service section) -->
+      <!-- UNIVERSITY SERVICE -->
       <div class="cv-block reveal" data-section="service">
         <p class="cv-section-label">University Service</p>
         <h2 class="cv-section-title">University Service</h2>
